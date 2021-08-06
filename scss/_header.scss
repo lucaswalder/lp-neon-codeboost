@@ -58,11 +58,10 @@ header {
                     align-items: flex-start;
                     width: 420px;
                     background-color: #fff;
-                    padding-left: 4.2rem;
+                    padding: 4.9rem 0 4.2rem 4.3rem;
                     border-radius: 0.6rem;
                     border-bottom: 5px solid #FFC800;
                     transition: all .6s ease-in-out;
-                    height: 0;
                     overflow-y: hidden;
                     opacity: 0;
                     pointer-events: none;
@@ -80,8 +79,6 @@ header {
 
                     &.open-menu {
                         visibility: visible;
-                        padding: 4.9rem 0 4.2rem 4.3rem;
-                        height: auto;
                         overflow-y: visible;
                         opacity: 1;
                         pointer-events: all;
