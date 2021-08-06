@@ -55,7 +55,7 @@ function openMenu (event) {
   openMenu.classList.toggle('open-menu');
 }
 
-subMenu.addEventListener('click', openMenu);
+menu.addEventListener('click', openMenu);
 
 // init animate
 AOS.init({
