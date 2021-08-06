@@ -51,7 +51,7 @@ header {
                 #drop-down {
                     position: absolute;
                     left: -15rem;
-                    top: 5rem;
+                    top: 5.4rem;
                     visibility: hidden;
                     display: flex;
                     flex-direction: column;
@@ -200,7 +200,7 @@ header {
                         font-size: 1.8rem;
                       }
 
-                      .drop-down {
+                      #drop-down {
                           display: none;
                       }
                 }
