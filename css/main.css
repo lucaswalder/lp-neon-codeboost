@@ -355,39 +355,46 @@ header nav ul li #drop-down.open-menu {
   overflow-y: visible;
 }
 
-/* line 86, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+/* line 84, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav ul li #drop-down.open-menu li {
+  opacity: 1;
+}
+
+/* line 89, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
 header nav ul li #drop-down li {
+  opacity: 0;
+  transition: opacity .6s;
   width: 100%;
 }
 
-/* line 88, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+/* line 93, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
 header nav ul li #drop-down li:not(:first-child) {
   margin: 0;
 }
 
-/* line 91, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+/* line 96, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
 header nav ul li #drop-down li:not(:last-child) {
   margin-bottom: 2.8rem;
 }
 
-/* line 97, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+/* line 102, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
 header nav ul li #drop-down li:hover a span {
   color: #0073CE;
 }
 
-/* line 103, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+/* line 108, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
 header nav ul li #drop-down li a {
   color: #4E4B59;
   font-size: 1.4rem;
   line-height: 150%;
 }
 
-/* line 107, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+/* line 112, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
 header nav ul li #drop-down li a:hover {
   color: #4E4B59;
 }
 
-/* line 111, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+/* line 116, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
 header nav ul li #drop-down li a span {
   display: block;
   text-align: left;
@@ -399,50 +406,50 @@ header nav ul li #drop-down li a span {
   margin-bottom: 0.4rem;
 }
 
-/* line 126, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+/* line 131, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
 header nav ul .btn-secondary {
   display: none;
 }
 
-/* line 134, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+/* line 139, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
 header .btn-secondary {
   position: relative;
   z-index: 29;
 }
 
-/* line 137, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+/* line 142, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
 header .btn-secondary.white {
   margin-right: 6rem;
 }
 
 @media (max-width: 1144px) {
-  /* line 144, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 149, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav ul {
     margin-right: 3rem;
   }
-  /* line 147, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 152, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav ul li:not(:first-child) {
     margin-left: 2rem;
   }
 }
 
 @media (max-width: 1002px) {
-  /* line 157, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 162, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav ul {
     margin-right: 1rem;
   }
-  /* line 160, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 165, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav ul li:not(:first-child) {
     margin-left: 1rem;
   }
 }
 
 @media (max-width: 991px) {
-  /* line 169, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 174, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header .logo {
     max-width: 10.8rem;
   }
-  /* line 173, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 178, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav ul {
     margin: 0;
     display: block;
@@ -457,59 +464,59 @@ header .btn-secondary.white {
     transition: .4s;
     z-index: 1;
   }
-  /* line 187, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 192, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  /* line 189, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 194, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav ul li:first-child {
     margin-top: 8.8rem;
     border-top: 2px solid rgba(255, 255, 255, 0.2);
     padding-top: 3rem;
   }
-  /* line 194, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 199, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav ul li:not(:first-child) {
     margin: 0;
   }
-  /* line 197, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 202, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav ul li a {
     padding: 2rem 0;
     text-align: center;
     font-size: 1.8rem;
   }
-  /* line 203, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 208, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav ul li #drop-down {
     display: none;
   }
-  /* line 210, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 215, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav.active ul {
     visibility: visible;
     overflow-y: auto;
     height: 100vh;
   }
-  /* line 216, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 221, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav.active #btn-mobile {
     position: absolute;
     z-index: 20;
   }
-  /* line 219, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 224, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav.active #btn-mobile span {
     background-color: transparent;
   }
-  /* line 221, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 226, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav.active #btn-mobile span::before {
     transform: rotate(135deg);
   }
-  /* line 225, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 230, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav.active #btn-mobile span::after {
     transform: rotate(-135deg);
     top: -8px;
     width: 27px;
   }
-  /* line 234, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 239, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav #btn-mobile {
     display: flex;
     padding: 2rem 1rem;
@@ -521,7 +528,7 @@ header .btn-secondary.white {
     right: 1.5rem;
     top: 1rem;
   }
-  /* line 245, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 250, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav #btn-mobile span {
     transition: .3s;
     width: 27px;
@@ -530,7 +537,7 @@ header .btn-secondary.white {
     border-radius: 5px;
     display: block;
   }
-  /* line 253, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 258, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav #btn-mobile span::after, header nav #btn-mobile span::before {
     content: '';
     display: block;
@@ -543,7 +550,7 @@ header .btn-secondary.white {
     border-radius: 5px;
     float: right;
   }
-  /* line 266, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 271, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav #btn-mobile span::before {
     margin-top: 8px;
     width: 27px;
@@ -551,23 +558,23 @@ header .btn-secondary.white {
 }
 
 @media (max-width: 480px) {
-  /* line 279, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 284, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav ul .btn-secondary {
     display: block;
   }
-  /* line 282, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 287, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header nav ul .btn-secondary.white {
     margin: 0 auto;
     margin-top: 4rem;
   }
-  /* line 289, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  /* line 294, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
   header .btn-secondary {
     display: none;
     margin: 0;
   }
 }
 
-/* line 296, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+/* line 301, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
 .bgOn {
   background-color: #0073CE;
 }
