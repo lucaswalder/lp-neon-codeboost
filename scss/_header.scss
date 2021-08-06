@@ -48,7 +48,7 @@ header {
                         }
                 }
 
-                ul {
+                .drop-down {
                     position: absolute;
                     left: -15rem;
                     top: 5rem;
@@ -60,6 +60,9 @@ header {
                     padding: 4.9rem 0 4.2rem 4.3rem;
                     border-radius: 0.6rem;
                     border-bottom: 5px solid $brand-yellow;
+                    &.open-menu {
+                        transition: all .3s;
+                    }
                     &::before {
                         content: '';
                         top: -7px;

@@ -51,7 +51,7 @@ btnMobile.addEventListener('touchstart', toggleMenu);
 // sub-menu
 const subMenu = document.getElementById('sub-menu');
 function openMenu (event) {
-  const openMenu = document.querySelector('#sub-menu ul');
+  const openMenu = document.querySelector('#sub-menu .drop-down');
   openMenu.classList.toggle('open-menu');
 }
 
