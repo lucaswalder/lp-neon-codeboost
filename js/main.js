@@ -49,9 +49,9 @@ btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
 
 // sub-menu
-const subMenu = document.getElementById('sub-menu');
+const menu = document.getElementById('menu');
 function openMenu (event) {
-  const openMenu = document.querySelector('#sub-menu .drop-down');
+  const openMenu = document.getElementById('sub-menu');
   openMenu.classList.toggle('open-menu');
 }
 
