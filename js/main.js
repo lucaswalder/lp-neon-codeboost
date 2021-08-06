@@ -49,13 +49,13 @@ btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
 
 // sub-menu
-const menu = document.getElementById('menu');
+const subMenu = document.getElementById('menu');
 function openMenu (event) {
-  const openMenu = document.getElementById('sub-menu');
+  const openMenu = document.getElementById('drop-down');
   openMenu.classList.toggle('open-menu');
 }
 
-menu.addEventListener('click', openMenu);
+subMenu.addEventListener('click', openMenu);
 
 // init animate
 AOS.init({
