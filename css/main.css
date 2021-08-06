@@ -1,1 +1,2144 @@
-*{margin:0;padding:0;list-style:none;text-decoration:none;outline:none;border:none;box-sizing:border-box;font-family:"Inter",sans-serif}img{max-width:100%;display:block}html{font-size:62.5%}@media (max-width: 1366px){html{font-size:58%}}@media (max-width: 991px){html{font-size:62.5%}}html,body{overflow-x:hidden}button{background-color:transparent;cursor:pointer}.container{width:100%;max-width:124.6rem;padding:0 15px;margin:0 auto}@keyframes floatingUp{0%{transform:translateY(0)}66%{transform:translateY(-15px)}100%{transform:translateY(0)}}@keyframes floatingDown{0%{transform:translateY(0)}66%{transform:translateY(15px)}100%{transform:translateY(0)}}.btn-primary{background-color:#FFC800;color:#855B35}.btn-primary:hover{background-color:#FFDC5C}.btn-secondary{border:1px solid #00A5F0;background-color:transparent;color:#00A5F0}.btn-secondary:hover{background-color:#00A5F0;color:#fff}.btn-secondary.white{border:1px solid #fff;color:#fff}.btn-secondary.white:hover{background-color:#fff;color:#00D7D7}.btn-primary,.btn-secondary{display:inline-block;line-height:4.8rem;padding:0 2.6rem;border-radius:122px;font-family:"Poppins",sans-serif;font-weight:600;font-size:1.6rem;transition:all .3s}h1,h2{font-family:"Poppins",sans-serif;font-weight:600;line-height:112%;letter-spacing:-1px;color:#4E4B59}h1{font-size:6.4rem}@media (max-width: 1050px){h1{font-size:5.2rem}}@media (max-width: 991px){h1{font-size:4.8rem}}@media (max-width: 480px){h1{font-size:3.2rem}}h2{font-size:4rem}@media (max-width: 991px){h2{font-size:3.6rem}}h3,h4{font-family:"Poppins",sans-serif;font-weight:500;letter-spacing:-0.5px;color:#4E4B59}h3{font-size:2.4rem;line-height:150%}@media (max-width: 480px){h3{font-size:1.6rem}}h4{font-size:2rem;line-height:112%}.card-testimonial{width:100%;max-width:38.4rem;height:20.9rem;background-color:rgba(241,240,245,0.55);border-radius:8px;padding:3.7rem 3.2rem 2.3rem 3.2rem}.card-testimonial .user{display:flex;flex-direction:row;align-items:center;justify-content:space-between;margin-bottom:2.1rem}.card-testimonial .user strong{font-family:"Poppins",sans-serif;font-weight:600;font-size:1.8rem;line-height:112%;letter-spacing:-1px;color:#4E4B59}.card-testimonial p{font-size:1.8rem;line-height:150%;color:#5F5C6B}@media (max-width: 768px){.card-testimonial{height:30rem}}header{position:fixed;top:0;left:0;z-index:999;height:8.8rem;display:flex;width:100%;border-bottom:2px solid rgba(255,255,255,0.2);transition:background-color .3s}header .container{display:flex;flex-direction:row;align-items:center;justify-content:space-between;position:relative}header #logo{position:relative;z-index:10}header nav{display:flex;align-items:center}header nav #btn-mobile{display:none}header nav ul{display:flex;align-items:center;margin-right:5.9rem}header nav ul li{cursor:pointer;position:relative}header nav ul li:not(:first-child){margin-left:4.8rem}header nav ul li a{font-family:"Poppins",sans-serif;font-weight:500;font-size:1.6rem;line-height:125%;color:#fff;transition:color .3s}header nav ul li a:hover{color:#FFC800}header nav ul li #drop-down{position:absolute;left:-15rem;top:5rem;visibility:hidden;display:flex;flex-direction:column;align-items:flex-start;width:420px;background-color:#fff;padding-left:4.2rem;border-radius:0.6rem;border-bottom:5px solid #FFC800;transition:all .4s ease;height:0;overflow-y:hidden}header nav ul li #drop-down::before{content:'';top:-7px;left:50%;position:absolute;width:14px;height:14px;background-color:#fff;transform:rotate(45deg);border-radius:3px}header nav ul li #drop-down.open-menu{visibility:visible;padding:4.9rem 0 4.2rem 4.3rem;height:auto;overflow-y:visible}header nav ul li #drop-down li{width:100%}header nav ul li #drop-down li:not(:first-child){margin:0}header nav ul li #drop-down li:not(:last-child){margin-bottom:2.8rem}header nav ul li #drop-down li:hover a span{color:#0073CE}header nav ul li #drop-down li a{color:#4E4B59;font-size:1.4rem;line-height:150%}header nav ul li #drop-down li a:hover{color:#4E4B59}header nav ul li #drop-down li a span{display:block;text-align:left;font-family:"Poppins",sans-serif;font-weight:600;font-size:1.6rem;line-height:1.9rem;color:#5F5C6B;margin-bottom:0.4rem}header nav ul .btn-secondary{display:none}header .btn-secondary{position:relative;z-index:29}header .btn-secondary.white{margin-right:6rem}@media (max-width: 1144px){header nav ul{margin-right:3rem}header nav ul li:not(:first-child){margin-left:2rem}}@media (max-width: 1002px){header nav ul{margin-right:1rem}header nav ul li:not(:first-child){margin-left:1rem}}@media (max-width: 991px){header .logo{max-width:10.8rem}header nav ul{margin:0;display:block;position:absolute;width:100%;top:0;right:0;background:#0073CE;height:0;visibility:hidden;overflow-y:hidden;transition:.4s;z-index:1}header nav ul li{display:flex;flex-direction:column;align-items:center;justify-content:center}header nav ul li:first-child{margin-top:8.8rem;border-top:2px solid rgba(255,255,255,0.2);padding-top:3rem}header nav ul li:not(:first-child){margin:0}header nav ul li a{padding:2rem 0;text-align:center;font-size:1.8rem}header nav ul li .drop-down{display:none}header nav.active ul{visibility:visible;overflow-y:auto;height:100vh}header nav.active #btn-mobile{position:absolute;z-index:20}header nav.active #btn-mobile span{background-color:transparent}header nav.active #btn-mobile span::before{transform:rotate(135deg)}header nav.active #btn-mobile span::after{transform:rotate(-135deg);top:-8px;width:27px}header nav #btn-mobile{display:flex;padding:2rem 1rem;font-size:1rem;background:transparent;border:none;cursor:pointer;position:absolute;right:1.5rem;top:1rem}header nav #btn-mobile span{transition:.3s;width:27px;height:3px;background-color:#fff;border-radius:5px;display:block}header nav #btn-mobile span::after,header nav #btn-mobile span::before{content:'';display:block;width:15px;height:3px;background-color:#fff;margin-top:5px;transition:.3s;position:relative;border-radius:5px;float:right}header nav #btn-mobile span::before{margin-top:8px;width:27px}}@media (max-width: 480px){header nav ul .btn-secondary{display:block}header nav ul .btn-secondary.white{margin:0 auto;margin-top:4rem}header .btn-secondary{display:none;margin:0}}.bgOn{background-color:#0073CE}footer{background-color:#0073CE;padding-top:4.9rem}footer .container{border-bottom:4px solid #FFC800}footer .top{padding-bottom:4.9rem;border-bottom:2px solid rgba(73,196,253,0.2);display:flex;flex-direction:row;align-items:center;justify-content:space-between}footer .top .redes-sociais{display:flex;align-items:center}footer .top .redes-sociais p{font-size:14px;line-height:125%;color:#fff;opacity:0.7;margin-right:3rem}footer .top .redes-sociais ul{display:flex;flex-direction:row;align-items:center;justify-content:space-between}footer .top .redes-sociais ul li:not(:first-child){margin-left:3rem}footer .main-footer{padding-bottom:6.5rem;border-bottom:2px solid rgba(73,196,253,0.2);margin-top:5.7rem;display:flex;flex-direction:row;align-items:flex-start;justify-content:space-between}footer .main-footer nav{width:100%;max-width:86rem;display:flex;flex-direction:row;align-items:flex-start;justify-content:space-between}footer .main-footer nav .item strong{display:block;font-weight:600;font-size:1.6rem;font-family:"Poppins",sans-serif;line-height:125%;color:#fff;margin-bottom:2.5rem}footer .main-footer nav .item ul li:not(:last-child){margin-bottom:2.9rem}footer .main-footer nav .item ul li a{font-size:14px;line-height:17px;color:#fff;opacity:0.7}footer .main-footer .btns{width:100%;max-width:28rem}footer .main-footer .btns button{display:flex;align-items:center;padding-left:2.5rem;width:100%;height:7.6rem;background:rgba(0,164,240,0.23);border-radius:6px}footer .main-footer .btns button:first-child{margin-bottom:2.4rem}footer .main-footer .btns button img{margin-right:2.4rem}footer .main-footer .btns button .info{color:#fff}footer .main-footer .btns button .info p{font-size:1.4rem;line-height:150%}footer .main-footer .btns button .info p strong{text-align:left;display:block}footer .mensagem{padding:3.9rem 0 3.4rem 0;display:flex;align-items:flex-start}footer .mensagem span{font-size:1.4rem;margin-right:2.5rem}footer .mensagem p{width:100%;max-width:66rem;font-size:14px;line-height:150%;color:#fff;opacity:0.8}@media (max-width: 1150px){footer .main-footer nav{max-width:82rem}}@media (max-width: 991px){footer{padding-top:3.6rem}footer .main-footer{width:100%;position:relative;flex-direction:column;align-items:flex-start;padding-bottom:3.6rem}footer .main-footer nav{flex-wrap:wrap;max-width:100%;justify-content:flex-start}footer .main-footer nav .item{width:33%;margin-bottom:5rem}footer .main-footer .btns{position:absolute;right:0;bottom:13.9rem;max-width:25rem}footer .main-footer .btns img{display:none}footer .mensagem{padding:3.2rem 0 4.1rem 0;flex-direction:column;align-items:center;text-align:center}footer .mensagem p{margin-top:1.2rem}}@media (max-width: 480px){footer{padding-top:4.6rem}footer .top{flex-direction:column;padding-bottom:4.3rem}footer .top .logo{margin-bottom:3.2rem}footer .top .redes-sociais{flex-direction:column}footer .top .redes-sociais p{margin:0 0 2rem}footer .main-footer{margin-top:5.2rem}footer .main-footer nav{justify-content:space-between}footer .main-footer nav .item{width:40%;margin-bottom:5.3rem}footer .main-footer nav ul{max-width:15rem}footer .main-footer .btns{position:relative;bottom:0;max-width:100%}footer .main-footer .btns button{padding:0;justify-content:center}footer .main-footer .btns button .info p strong{text-align:center}}.s-hero{width:100%;height:78.6rem;background:url("https://neon.lucaswalder.dev/img/bg-hero.svg") no-repeat center center;padding-top:17.5rem}.s-hero .container{display:flex;flex-direction:row;align-items:flex-start;justify-content:space-between}.s-hero .text{width:100%;max-width:68.3rem}.s-hero .text h3{font-weight:600;color:#fff;opacity:0.8;margin-bottom:3.2rem}.s-hero .text h1{font-weight:600;color:#fff;margin-bottom:3.9rem}.s-hero .text ul{margin-top:6.4rem;width:100%;max-width:62.1rem;display:flex;flex-direction:row;align-items:center;justify-content:space-between}.s-hero .text ul li{display:flex;align-items:center}.s-hero .text ul li .icon{height:4.8rem;width:4.8rem;background:linear-gradient(180deg, rgba(53,203,226,0.4) 0%, rgba(53,202,226,0) 100%);border-radius:50%;display:flex;flex-direction:row;align-items:center;justify-content:center;margin-right:1.2rem}.s-hero .text ul li span{color:#fff;font-size:1.8rem}.s-hero .image-area{width:100%;max-width:70.6rem;margin-right:-17.4rem}.s-hero .image-area h2{text-align:center;margin-bottom:6.7rem;font-weight:600;color:rgba(255,255,255,0.4)}.s-hero .image-area .image{position:relative;top:4.3rem;width:100%;height:54.1rem}.s-hero .image-area .image img{position:absolute}.s-hero .image-area .image .card-front{top:4.1rem;left:0;z-index:2;max-width:43.5rem;animation:floatingDown 6s infinite}.s-hero .image-area .image .card-back{right:8.6rem;bottom:4.6rem;z-index:1;max-width:35.2rem;animation:floatingUp 6s infinite}.s-hero .image-area .image .circle{top:2.8rem;right:4.3rem;max-width:55.3rem}@media (max-width: 1440px){.s-hero .image-area{margin-right:-13.4rem}}@media (max-width: 1366px){.s-hero .image-area{margin-right:-8rem}.s-hero .image-area .image .card-back{right:4rem}}@media (max-width: 1050px){.s-hero{padding-top:14.5rem;height:65.6rem}.s-hero .text h3{margin-bottom:2.4rem}.s-hero .text ul{margin-bottom:4.5rem}.s-hero .image-area{margin-right:-1rem}.s-hero .image-area h2{margin-bottom:1.5rem}.s-hero .image-area .image{height:45rem}.s-hero .image-area .image .card-front{max-width:35rem;top:8rem}.s-hero .image-area .image .card-back{max-width:29rem;bottom:0}.s-hero .image-area .image .circle{max-width:46rem}}@media (max-width: 991px){.s-hero{height:89.1rem;background-size:cover;padding-top:15rem}.s-hero .container{flex-direction:column}.s-hero .text{text-align:center;max-width:100%}.s-hero .text h1{margin-bottom:2.6rem}.s-hero .text ul{margin:3.9rem auto 5rem}.s-hero .image-area{max-width:51.1rem;margin:0 auto}.s-hero .image-area h2{margin-bottom:1.9rem}.s-hero .image-area .image{height:42.4rem;top:0}.s-hero .image-area .image .card-front{max-width:34rem;top:3.5rem;left:0}.s-hero .image-area .image .card-back{max-width:27.4rem;right:2.9rem;bottom:3.6rem}.s-hero .image-area .image .circle{max-width:42.9rem;top:0;right:1.3rem}}@media (max-width: 480px){.s-hero{padding-top:12.4rem;height:73.9rem}.s-hero .text h3{margin-bottom:1.5rem}.s-hero .text h1{margin-bottom:3.7rem}.s-hero .text ul{flex-direction:column;align-items:flex-start;margin:3.7rem auto 5.1rem;max-width:27.5rem}.s-hero .text ul li:not(:last-child){margin-bottom:1.6rem}.s-hero .text ul li .icon{background:transparent;width:2rem;height:auto}.s-hero .text ul li span br{display:none}.s-hero .image-area h2{display:none}.s-hero .image-area .image{max-width:30.5rem;height:24.8rem}.s-hero .image-area .image .circle{max-width:26.7rem;right:0}.s-hero .image-area .image .card-front{max-width:21.1rem;top:2.9rem}.s-hero .image-area .image .card-back{max-width:17rem;bottom:0;right:0.6rem}}.s-card-neon{padding-top:12.9rem}.s-card-neon .container{display:flex;flex-direction:row;align-items:flex-start;justify-content:space-between}.s-card-neon .left-area{width:100%;max-width:27.7rem}.s-card-neon .left-area .ilustra-mockup{width:100%;max-width:27.7rem;position:relative}.s-card-neon .left-area .ilustra-mockup::after{content:'';display:block;position:absolute;width:100%;height:28.74px;bottom:0;background-color:#15507E;opacity:1;filter:blur(40.9394px);border-radius:20.9052px;z-index:-1}.s-card-neon .left-area .ilustra-mockup .circle{position:absolute;top:8.7rem;left:-21.4rem;max-width:37.7rem;z-index:-1}.s-card-neon .left-area .ilustra-mockup .mockup{margin-bottom:13rem}.s-card-neon .left-area .text{text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center}.s-card-neon .left-area .text .icon{margin-bottom:3.1rem;position:relative}.s-card-neon .left-area .text .icon::before{content:'';display:inline-block;width:5px;height:83px;background:url("https://neon.lucaswalder.dev/img/points.svg") no-repeat center center;position:absolute;top:-104px;left:50%;margin-left:-2.5px}.s-card-neon .left-area .text .icon::after{content:'';display:block;position:absolute;width:100%;height:46px;top:24px;background:linear-gradient(100.52deg, #008ECF 5.63%, #08AEAE 95.75%);opacity:0.56;filter:blur(30px);border-radius:12px;z-index:-1}.s-card-neon .left-area .text .info-txt{display:flex;flex-direction:column;align-items:center;justify-content:center}.s-card-neon .left-area .text .info-txt h3{color:#33303E}.s-card-neon .left-area .text .info-txt p{font-size:16px;line-height:150%;text-align:center;color:#5F5C6B;opacity:0.8;margin-bottom:2.6rem}.s-card-neon .left-area .text .info-txt ul li:first-child{margin-bottom:1.341rem}.s-card-neon .right-area{margin-top:2.275rem;width:100%;max-width:80rem}.s-card-neon .right-area .main-text{padding-bottom:14.4rem}.s-card-neon .right-area .main-text h2{max-width:48.8rem;margin-bottom:4.9rem;color:#33303E}.s-card-neon .right-area .main-text ul{margin-bottom:3.2rem}.s-card-neon .right-area .main-text ul li{padding:3.3rem 0;border-bottom:1px solid rgba(225,224,231,0.9);cursor:pointer;display:flex;flex-direction:row;align-items:center;justify-content:space-between}.s-card-neon .right-area .main-text ul li:first-child{padding-top:0}.s-card-neon .right-area .main-text ul li:hover .arrow.one{border-left:2px solid #00D7D7;border-bottom:2px solid #00D7D7}.s-card-neon .right-area .main-text ul li:hover .arrow.two{border-left:2px solid #00A5F0;border-bottom:2px solid #00A5F0}.s-card-neon .right-area .main-text ul li:hover .arrow.three{border-left:2px solid #0073CE;border-bottom:2px solid #0073CE}.s-card-neon .right-area .main-text ul li .info{display:flex;flex-direction:row;align-items:flex-end;justify-content:space-between}.s-card-neon .right-area .main-text ul li .info .icon{margin-right:4.3rem}.s-card-neon .right-area .main-text ul li .info .txt h3{color:#5F5C6B}.s-card-neon .right-area .main-text ul li .info .txt p{color:#7A7786;font-size:1.8rem}.s-card-neon .right-area .main-text ul li .arrow{width:14px;height:14px;border-left:2px solid #C6C5CE;border-bottom:2px solid #C6C5CE;transform:rotate(-135deg);transition:all .3s}.s-card-neon .right-area .main-text .btn{font-family:"Poppins",sans-serif;font-weight:500;font-size:1.6rem;line-height:112%;letter-spacing:-0.5px;color:#0073CE}.s-card-neon .right-area .main-text .btn strong{padding-left:.8rem;color:#FFC800}.s-card-neon .right-area .card{width:100%;height:41rem;background:url("https://neon.lucaswalder.dev/img/bg-box-card-neon.svg") no-repeat center center;display:flex;flex-direction:row;align-items:center;justify-content:space-between;border-radius:12px;padding-left:5.9rem}.s-card-neon .right-area .card .text{width:100%;max-width:32.7rem}.s-card-neon .right-area .card .text h2{margin-bottom:1.1rem;color:#fff}.s-card-neon .right-area .card .text h3{color:#fff;margin-bottom:0.8rem}.s-card-neon .right-area .card .text p{font-size:1.6rem;line-height:150%;color:#fff;margin-bottom:3.3rem}.s-card-neon .right-area .card .text .btns{display:flex;align-items:center}.s-card-neon .right-area .card .text .btns button:not(:first-child){margin-left:1.6rem}.s-card-neon .right-area .card .illustration{margin-right:-3.1rem}@media (max-width: 1200px){.s-card-neon .left-area .ilustra-mockup .circle{display:none}.s-card-neon .right-area{max-width:73rem}.s-card-neon .right-area .main-text ul li .info .icon{margin-right:2rem}.s-card-neon .right-area .card{padding-left:3.5rem}.s-card-neon .right-area .card .illustration{margin-right:-1rem}}@media (max-width: 991px){.s-card-neon .container{flex-direction:column-reverse}.s-card-neon .right-area{max-width:100%}.s-card-neon .right-area .main-text{padding-bottom:5.7rem}.s-card-neon .right-area .main-text h2{text-align:center;margin:0 auto;margin-bottom:5.3rem}.s-card-neon .right-area .main-text ul{margin-bottom:4rem}.s-card-neon .right-area .main-text ul li .info .icon{margin-right:3rem}.s-card-neon .right-area .main-text .btn{text-align:center;display:block;font-size:1.8rem}.s-card-neon .right-area .main-text .btn::after{right:35%}.s-card-neon .right-area .card{max-width:94.7%;margin:0 auto;padding-left:5.1rem;margin-bottom:9.34rem}.s-card-neon .right-area .card .illustration{max-width:29.3rem;margin-right:-2.5rem}.s-card-neon .left-area{display:flex;flex-direction:row;align-items:center;justify-content:space-between;padding-top:9.34rem;width:100%;max-width:61rem;margin:0 auto}.s-card-neon .left-area .ilustra-mockup{max-width:25.5rem}.s-card-neon .left-area .ilustra-mockup .mockup{margin-bottom:0}.s-card-neon .left-area .text{max-width:27rem}}@media (max-width: 798px){.s-card-neon .right-area .card{max-width:68.8rem;height:35.2rem;margin:0 auto;padding-left:5.1rem;background:url("https://neon.lucaswalder.dev/img/bg-card-neon-tablet.svg") no-repeat center center}.s-card-neon .right-area .card .text h2{font-size:3.2rem}.s-card-neon .right-area .card .text h3{font-size:2.4rem}.s-card-neon .right-area .card .illustration{max-width:29.3rem;margin-right:-0.5rem}}@media (max-width: 600px){.s-card-neon .right-area .card{padding:3rem 0;flex-direction:column;text-align:center;margin-bottom:3rem;background-size:cover;height:auto}.s-card-neon .right-area .card .btns{justify-content:center;margin-bottom:3rem}.s-card-neon .right-area .card .text{max-width:90%}.s-card-neon .right-area .card .illustration{margin:0;margin-bottom:-10rem}.s-card-neon .left-area{padding-top:11.34rem}}@media (max-width: 480px){.s-card-neon{padding-top:8.6rem;position:relative}.s-card-neon::after{content:'';position:absolute;width:100%;height:214px;left:0px;bottom:0;background:linear-gradient(180deg, #F7F7FA 0%, rgba(247,247,250,0) 100%);transform:matrix(1, 0, 0, -1, 0, 0);z-index:-1}.s-card-neon .right-area{margin-bottom:11.7rem}.s-card-neon .right-area .main-text{padding-bottom:3.4rem}.s-card-neon .right-area .main-text h2{font-size:2.8rem;margin-bottom:3.8rem}.s-card-neon .right-area .main-text ul li{padding:2.8rem 0}.s-card-neon .right-area .main-text ul li .info{align-items:flex-start}.s-card-neon .right-area .main-text ul li .info .txt h3{max-width:19.1rem;line-height:112%;font-size:2rem;margin-bottom:0.3rem}.s-card-neon .right-area .main-text ul li .info .txt p{max-width:20.8rem;font-size:1.4rem;line-height:150%}.s-card-neon .right-area .main-text ul li .info .icon{margin-right:2.3rem}.s-card-neon .right-area .card{padding-top:4.3rem;max-width:95%;height:47rem;position:relative}.s-card-neon .right-area .card::after{content:'';position:absolute;bottom:0;width:260.14px;height:173.14px;background:linear-gradient(171.68deg, #0E9CC0 -6.1%, rgba(14,156,192,0) 116.71%);filter:blur(35.9824px);border-radius:10.7947px;transform:matrix(1, 0, 0, -1, 0, 0);z-index:-1;margin-bottom:-8rem;opacity:0.4}.s-card-neon .right-area .card .text h2{font-size:2.8rem;margin-bottom:1.46rem}.s-card-neon .right-area .card .text h3{font-size:2rem;line-height:120%;margin-bottom:0.6rem}.s-card-neon .right-area .card .text p{margin:0 auto;padding-bottom:3.4rem;max-width:25.3rem}.s-card-neon .right-area .card .btns{margin-bottom:5.45rem}.s-card-neon .right-area .card .btns .btn-primary{padding:0 3rem}.s-card-neon .right-area .card .illustration{max-width:27.7rem;margin-bottom:0}.s-card-neon .left-area{padding-top:0;flex-direction:column-reverse}.s-card-neon .left-area .text{max-width:100%}.s-card-neon .left-area .text .icon::before{display:none}.s-card-neon .left-area .text .info-txt h3{font-size:2.4rem}.s-card-neon .left-area .text .info-txt p{line-height:2.2rem;font-size:1.8rem;max-width:29rem;margin-bottom:4.4rem}.s-card-neon .left-area .text .info-txt ul{margin-bottom:4.1rem}.s-card-neon .left-area .ilustra-mockup{height:39.7rem;overflow-y:hidden;max-width:100%}.s-card-neon .left-area .ilustra-mockup::after{display:none}.s-card-neon .left-area .ilustra-mockup .mockup{max-width:21.8rem;margin:0 auto}}.s-testimonials{padding-top:13.4rem}.s-testimonials .container .top{display:flex;flex-direction:row;align-items:flex-end;justify-content:space-between}.s-testimonials .container .top h2{width:100%;max-width:66.8rem;color:#33303E}.s-testimonials .container .top h2 span{display:block;color:#c6c5ce;opacity:0.8;margin-bottom:1.4rem}.s-testimonials .container .top .swiper-pagination{position:relative}.s-testimonials .container .top .swiper-pagination .swiper-pagination-bullet{width:0.862rem;height:0.7rem;left:130.146rem;top:21.6rem;background:#FFC800;opacity:0.3;border-radius:12px;transition:all .3s}.s-testimonials .container .top .swiper-pagination .swiper-pagination-bullet:not(:first-child){margin-left:0.4rem}.s-testimonials .container .top .swiper-pagination .swiper-pagination-bullet-active{opacity:1;width:1.723rem}.s-testimonials .container .slide-testimonials{overflow:hidden;margin-top:4rem}@media (max-width: 991px){.s-testimonials{padding-top:10.9rem}.s-testimonials .container .top{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}.s-testimonials .container .top .swiper-pagination{margin:0 auto;padding:5.1rem 0}.s-testimonials .container .slide-testimonials{margin-top:0}}@media (max-width: 480px){.s-testimonials{padding-top:7.6rem}.s-testimonials .container{padding:0}.s-testimonials .container .top{max-width:25.3rem;margin:0 auto}.s-testimonials .container .top h2{font-size:2.8rem}.s-testimonials .container .top h2 span{font-size:2.4rem;margin-bottom:1.1rem}.s-testimonials .container .top .swiper-pagination{padding:3.4rem 0}.s-testimonials .container .slide-testimonials{padding:0 2rem}}.s-conta-digital{padding-top:12.7rem;margin-bottom:10.9rem}.s-conta-digital .container{display:flex;flex-direction:row;align-items:flex-start;justify-content:space-between}.s-conta-digital .text{width:100%;max-width:55.8rem;margin-top:1.1rem}.s-conta-digital .text h2{color:#33303E;margin-bottom:4.5rem}.s-conta-digital .text h2 span{color:#C6C5CE;display:block}.s-conta-digital .text ul{margin-bottom:4.9rem}.s-conta-digital .text ul li{display:flex;align-items:center}.s-conta-digital .text ul li:not(:last-child){margin-bottom:3.7rem}.s-conta-digital .text ul li .icon{width:4.5rem;height:4.5rem;background:#00D7D7;border-radius:8px;display:flex;flex-direction:row;align-items:center;justify-content:center;margin-right:2.6rem}.s-conta-digital .text ul li .info h4{margin-bottom:0.4rem;color:#5F5C6B}.s-conta-digital .text ul li .info p{font-size:1.8rem;line-height:150%;color:#7A7786}.s-conta-digital .image{position:relative;width:100%;max-width:71.2rem;height:59.8rem;margin-right:-181px}.s-conta-digital .image img{position:absolute}.s-conta-digital .image img.circle{top:9rem;right:0}.s-conta-digital .image img.mockup-02{top:0.3rem;left:25.8rem}.s-conta-digital .image img.mockup-01{left:0;top:7.8rem}@media (max-width: 1200px){.s-conta-digital{padding-top:7.7rem;margin-bottom:8.9rem}.s-conta-digital .container{display:flex;flex-direction:column;align-items:center;justify-content:center}.s-conta-digital .text{max-width:75%;margin-bottom:5rem;display:flex;flex-direction:column;align-items:center;justify-content:center}.s-conta-digital .text h2{text-align:center;max-width:80%}.s-conta-digital .image{margin-right:0}}@media (max-width: 991px){.s-conta-digital{padding-top:8.6rem;margin-bottom:8.1rem}.s-conta-digital .text{margin-bottom:7.8rem}.s-conta-digital .text h2{max-width:48.2rem;margin-bottom:5rem}.s-conta-digital .text h2 span{margin-bottom:1.2rem}.s-conta-digital .text ul{max-width:63rem}.s-conta-digital .text ul li .icon{height:6.2rem;width:6.2rem}.s-conta-digital .text ul li:not(:last-child){margin-bottom:5.4rem}.s-conta-digital .image{max-width:58.201rem;height:57.87rem}.s-conta-digital .image img{position:absolute}.s-conta-digital .image img.circle{top:5.5rem;width:100%}.s-conta-digital .image img.mockup-02{top:0;left:305px}.s-conta-digital .image img.mockup-01{left:5.8rem;top:7.8rem}}@media (max-width: 480px){.s-conta-digital{padding-top:5.7rem;margin-bottom:7.2rem}.s-conta-digital .text{max-width:100%;margin-bottom:4.6rem}.s-conta-digital .text h2{max-width:100%;font-size:2.8rem}.s-conta-digital .text h2 span{font-size:2.4rem;margin-bottom:1.1rem}.s-conta-digital .text ul{margin-bottom:4.2rem}.s-conta-digital .text ul li{flex-direction:column;text-align:center}.s-conta-digital .text ul li:not(:last-child){margin-bottom:3.3rem}.s-conta-digital .text ul li .icon{width:4.8rem;height:4.8rem;margin-bottom:1.6rem;margin-right:0}.s-conta-digital .text ul li .info h4{margin-bottom:0.4rem}.s-conta-digital .text ul li .info p{font-size:1.4rem;max-width:23.8rem;margin:0 auto}.s-conta-digital .image{max-width:35.7rem;height:46.8rem}.s-conta-digital .image img{position:absolute}.s-conta-digital .image img.circle{max-width:32.5rem;top:14.6rem;right:1.9rem;transform:rotate(-212deg)}.s-conta-digital .image img.mockup-02{max-width:16.8rem;top:0;left:17.4rem}.s-conta-digital .image img.mockup-01{max-width:16.8rem;left:-0.5rem;top:4.8rem}}
+/* line 1, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* line 12, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_reset.scss */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* line 17, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_reset.scss */
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 1366px) {
+  /* line 17, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_reset.scss */
+  html {
+    font-size: 58%;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 17, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_reset.scss */
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/* line 28, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_reset.scss */
+html, body {
+  overflow-x: hidden;
+}
+
+/* line 32, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_reset.scss */
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* line 1, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_grid.scss */
+.container {
+  width: 100%;
+  max-width: 124.6rem;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@keyframes floatingUp {
+  0% {
+    transform: translateY(0);
+  }
+  66% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatingDown {
+  0% {
+    transform: translateY(0);
+  }
+  66% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* line 1, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_buttons.scss */
+.btn-primary {
+  background-color: #FFC800;
+  color: #855B35;
+}
+
+/* line 4, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_buttons.scss */
+.btn-primary:hover {
+  background-color: #FFDC5C;
+}
+
+/* line 9, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_buttons.scss */
+.btn-secondary {
+  border: 1px solid #00A5F0;
+  background-color: transparent;
+  color: #00A5F0;
+}
+
+/* line 13, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_buttons.scss */
+.btn-secondary:hover {
+  background-color: #00A5F0;
+  color: #FFF;
+}
+
+/* line 18, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_buttons.scss */
+.btn-secondary.white {
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+
+/* line 21, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_buttons.scss */
+.btn-secondary.white:hover {
+  background-color: #FFF;
+  color: #00D7D7;
+}
+
+/* line 28, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_buttons.scss */
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  line-height: 4.8rem;
+  padding: 0 2.6rem;
+  border-radius: 122px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  transition: all .3s;
+}
+
+/* line 1, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_titles.scss */
+h1, h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 112%;
+  letter-spacing: -1px;
+  color: #4E4B59;
+}
+
+/* line 9, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_titles.scss */
+h1 {
+  font-size: 6.4rem;
+}
+
+@media (max-width: 1050px) {
+  /* line 9, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_titles.scss */
+  h1 {
+    font-size: 5.2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 9, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_titles.scss */
+  h1 {
+    font-size: 4.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 9, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_titles.scss */
+  h1 {
+    font-size: 3.2rem;
+  }
+}
+
+/* line 24, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_titles.scss */
+h2 {
+  font-size: 4rem;
+}
+
+@media (max-width: 991px) {
+  /* line 24, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_titles.scss */
+  h2 {
+    font-size: 3.6rem;
+  }
+}
+
+/* line 31, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_titles.scss */
+h3, h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  color: #4E4B59;
+}
+
+/* line 38, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_titles.scss */
+h3 {
+  font-size: 2.4rem;
+  line-height: 150%;
+}
+
+@media (max-width: 480px) {
+  /* line 38, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_titles.scss */
+  h3 {
+    font-size: 1.6rem;
+  }
+}
+
+/* line 46, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_titles.scss */
+h4 {
+  font-size: 2rem;
+  line-height: 112%;
+}
+
+/* line 1, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_components.scss */
+.card-testimonial {
+  width: 100%;
+  max-width: 38.4rem;
+  height: 20.9rem;
+  background-color: rgba(241, 240, 245, 0.55);
+  border-radius: 8px;
+  padding: 3.7rem 3.2rem 2.3rem 3.2rem;
+}
+
+/* line 9, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_components.scss */
+.card-testimonial .user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.1rem;
+}
+
+/* line 13, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_components.scss */
+.card-testimonial .user strong {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 112%;
+  letter-spacing: -1px;
+  color: #4E4B59;
+}
+
+/* line 23, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_components.scss */
+.card-testimonial p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: #5F5C6B;
+}
+
+@media (max-width: 768px) {
+  /* line 1, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_components.scss */
+  .card-testimonial {
+    height: 30rem;
+  }
+}
+
+/* line 1, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  height: 8.8rem;
+  display: flex;
+  width: 100%;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  transition: background-color .3s;
+}
+
+/* line 11, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* line 15, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header #logo {
+  position: relative;
+  z-index: 10;
+}
+
+/* line 19, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+/* line 23, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav #btn-mobile {
+  display: none;
+}
+
+/* line 27, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav ul {
+  display: flex;
+  align-items: center;
+  margin-right: 5.9rem;
+}
+
+/* line 32, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav ul li {
+  cursor: pointer;
+  position: relative;
+}
+
+/* line 35, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav ul li:not(:first-child) {
+  margin-left: 4.8rem;
+}
+
+/* line 39, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav ul li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 125%;
+  color: #FFF;
+  transition: color .3s;
+}
+
+/* line 46, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav ul li a:hover {
+  color: #FFC800;
+}
+
+/* line 51, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav ul li #drop-down {
+  position: absolute;
+  left: -15rem;
+  top: 5.4rem;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 420px;
+  background-color: #fff;
+  padding-left: 4.2rem;
+  border-radius: 0.6rem;
+  border-bottom: 5px solid #FFC800;
+  transition: all .4s ease;
+  height: 0;
+  overflow-y: hidden;
+}
+
+/* line 67, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav ul li #drop-down::before {
+  content: '';
+  top: -7px;
+  left: 50%;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: #FFF;
+  transform: rotate(45deg);
+  border-radius: 3px;
+}
+
+/* line 79, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav ul li #drop-down.open-menu {
+  visibility: visible;
+  padding: 4.9rem 0 4.2rem 4.3rem;
+  height: auto;
+  overflow-y: visible;
+}
+
+/* line 86, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav ul li #drop-down li {
+  width: 100%;
+}
+
+/* line 88, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav ul li #drop-down li:not(:first-child) {
+  margin: 0;
+}
+
+/* line 91, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav ul li #drop-down li:not(:last-child) {
+  margin-bottom: 2.8rem;
+}
+
+/* line 97, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav ul li #drop-down li:hover a span {
+  color: #0073CE;
+}
+
+/* line 103, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav ul li #drop-down li a {
+  color: #4E4B59;
+  font-size: 1.4rem;
+  line-height: 150%;
+}
+
+/* line 107, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav ul li #drop-down li a:hover {
+  color: #4E4B59;
+}
+
+/* line 111, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav ul li #drop-down li a span {
+  display: block;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #5F5C6B;
+  margin-bottom: 0.4rem;
+}
+
+/* line 126, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header nav ul .btn-secondary {
+  display: none;
+}
+
+/* line 134, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header .btn-secondary {
+  position: relative;
+  z-index: 29;
+}
+
+/* line 137, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+header .btn-secondary.white {
+  margin-right: 6rem;
+}
+
+@media (max-width: 1144px) {
+  /* line 144, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav ul {
+    margin-right: 3rem;
+  }
+  /* line 147, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav ul li:not(:first-child) {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 1002px) {
+  /* line 157, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav ul {
+    margin-right: 1rem;
+  }
+  /* line 160, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav ul li:not(:first-child) {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 169, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header .logo {
+    max-width: 10.8rem;
+  }
+  /* line 173, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav ul {
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background: #0073CE;
+    height: 0;
+    visibility: hidden;
+    overflow-y: hidden;
+    transition: .4s;
+    z-index: 1;
+  }
+  /* line 187, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 189, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav ul li:first-child {
+    margin-top: 8.8rem;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    padding-top: 3rem;
+  }
+  /* line 194, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav ul li:not(:first-child) {
+    margin: 0;
+  }
+  /* line 197, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav ul li a {
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  /* line 203, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav ul li #drop-down {
+    display: none;
+  }
+  /* line 210, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav.active ul {
+    visibility: visible;
+    overflow-y: auto;
+    height: 100vh;
+  }
+  /* line 216, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav.active #btn-mobile {
+    position: absolute;
+    z-index: 20;
+  }
+  /* line 219, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav.active #btn-mobile span {
+    background-color: transparent;
+  }
+  /* line 221, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav.active #btn-mobile span::before {
+    transform: rotate(135deg);
+  }
+  /* line 225, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav.active #btn-mobile span::after {
+    transform: rotate(-135deg);
+    top: -8px;
+    width: 27px;
+  }
+  /* line 234, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav #btn-mobile {
+    display: flex;
+    padding: 2rem 1rem;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 1.5rem;
+    top: 1rem;
+  }
+  /* line 245, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav #btn-mobile span {
+    transition: .3s;
+    width: 27px;
+    height: 3px;
+    background-color: #FFF;
+    border-radius: 5px;
+    display: block;
+  }
+  /* line 253, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav #btn-mobile span::after, header nav #btn-mobile span::before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 3px;
+    background-color: #FFF;
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+    border-radius: 5px;
+    float: right;
+  }
+  /* line 266, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav #btn-mobile span::before {
+    margin-top: 8px;
+    width: 27px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 279, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav ul .btn-secondary {
+    display: block;
+  }
+  /* line 282, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header nav ul .btn-secondary.white {
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
+  /* line 289, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+  header .btn-secondary {
+    display: none;
+    margin: 0;
+  }
+}
+
+/* line 296, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+.bgOn {
+  background-color: #0073CE;
+}
+
+/* line 1, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer {
+  background-color: #0073CE;
+  padding-top: 4.9rem;
+}
+
+/* line 4, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .container {
+  border-bottom: 4px solid #FFC800;
+}
+
+/* line 7, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .top {
+  padding-bottom: 4.9rem;
+  border-bottom: 2px solid rgba(73, 196, 253, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 11, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .top .redes-sociais {
+  display: flex;
+  align-items: center;
+}
+
+/* line 14, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .top .redes-sociais p {
+  font-size: 14px;
+  line-height: 125%;
+  color: #FFF;
+  opacity: 0.7;
+  margin-right: 3rem;
+}
+
+/* line 22, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .top .redes-sociais ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 25, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .top .redes-sociais ul li:not(:first-child) {
+  margin-left: 3rem;
+}
+
+/* line 33, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .main-footer {
+  padding-bottom: 6.5rem;
+  border-bottom: 2px solid rgba(73, 196, 253, 0.2);
+  margin-top: 5.7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* line 38, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .main-footer nav {
+  width: 100%;
+  max-width: 86rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* line 44, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .main-footer nav .item strong {
+  display: block;
+  font-weight: 600;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 125%;
+  color: #FFF;
+  margin-bottom: 2.5rem;
+}
+
+/* line 55, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .main-footer nav .item ul li:not(:last-child) {
+  margin-bottom: 2.9rem;
+}
+
+/* line 58, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .main-footer nav .item ul li a {
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFF;
+  opacity: 0.7;
+}
+
+/* line 69, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .main-footer .btns {
+  width: 100%;
+  max-width: 28rem;
+}
+
+/* line 73, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .main-footer .btns button {
+  display: flex;
+  align-items: center;
+  padding-left: 2.5rem;
+  width: 100%;
+  height: 7.6rem;
+  background: rgba(0, 164, 240, 0.23);
+  border-radius: 6px;
+}
+
+/* line 81, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .main-footer .btns button:first-child {
+  margin-bottom: 2.4rem;
+}
+
+/* line 84, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .main-footer .btns button img {
+  margin-right: 2.4rem;
+}
+
+/* line 88, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .main-footer .btns button .info {
+  color: #FFF;
+}
+
+/* line 90, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .main-footer .btns button .info p {
+  font-size: 1.4rem;
+  line-height: 150%;
+}
+
+/* line 93, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .main-footer .btns button .info p strong {
+  text-align: left;
+  display: block;
+}
+
+/* line 103, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .mensagem {
+  padding: 3.9rem 0 3.4rem 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* line 107, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .mensagem span {
+  font-size: 1.4rem;
+  margin-right: 2.5rem;
+}
+
+/* line 112, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+footer .mensagem p {
+  width: 100%;
+  max-width: 66rem;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.8;
+}
+
+@media (max-width: 1150px) {
+  /* line 124, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .main-footer nav {
+    max-width: 82rem;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 1, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer {
+    padding-top: 3.6rem;
+  }
+  /* line 133, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .main-footer {
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 3.6rem;
+  }
+  /* line 139, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .main-footer nav {
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: flex-start;
+  }
+  /* line 143, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .main-footer nav .item {
+    width: 33%;
+    margin-bottom: 5rem;
+  }
+  /* line 149, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .main-footer .btns {
+    position: absolute;
+    right: 0;
+    bottom: 13.9rem;
+    max-width: 25rem;
+  }
+  /* line 154, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .main-footer .btns img {
+    display: none;
+  }
+  /* line 160, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .mensagem {
+    padding: 3.2rem 0 4.1rem 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  /* line 165, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .mensagem p {
+    margin-top: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 1, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer {
+    padding-top: 4.6rem;
+  }
+  /* line 174, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .top {
+    flex-direction: column;
+    padding-bottom: 4.3rem;
+  }
+  /* line 177, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .top .logo {
+    margin-bottom: 3.2rem;
+  }
+  /* line 180, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .top .redes-sociais {
+    flex-direction: column;
+  }
+  /* line 182, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .top .redes-sociais p {
+    margin: 0 0 2rem;
+  }
+  /* line 187, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .main-footer {
+    margin-top: 5.2rem;
+  }
+  /* line 189, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .main-footer nav {
+    justify-content: space-between;
+  }
+  /* line 191, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .main-footer nav .item {
+    width: 40%;
+    margin-bottom: 5.3rem;
+  }
+  /* line 196, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .main-footer nav ul {
+    max-width: 15rem;
+  }
+  /* line 201, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .main-footer .btns {
+    position: relative;
+    bottom: 0;
+    max-width: 100%;
+  }
+  /* line 205, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .main-footer .btns button {
+    padding: 0;
+    justify-content: center;
+  }
+  /* line 210, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_footer.scss */
+  footer .main-footer .btns button .info p strong {
+    text-align: center;
+  }
+}
+
+/* line 1, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-hero {
+  width: 100%;
+  height: 78.6rem;
+  background: url("https://neon.lucaswalder.dev/img/bg-hero.svg") no-repeat center center;
+  padding-top: 17.5rem;
+}
+
+/* line 7, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-hero .container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* line 11, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-hero .text {
+  width: 100%;
+  max-width: 68.3rem;
+}
+
+/* line 15, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-hero .text h3 {
+  font-weight: 600;
+  color: #FFF;
+  opacity: 0.8;
+  margin-bottom: 3.2rem;
+}
+
+/* line 22, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-hero .text h1 {
+  font-weight: 600;
+  color: #FFF;
+  margin-bottom: 3.9rem;
+}
+
+/* line 28, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-hero .text ul {
+  margin-top: 6.4rem;
+  width: 100%;
+  max-width: 62.1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 34, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-hero .text ul li {
+  display: flex;
+  align-items: center;
+}
+
+/* line 37, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-hero .text ul li .icon {
+  height: 4.8rem;
+  width: 4.8rem;
+  background: linear-gradient(180deg, rgba(53, 203, 226, 0.4) 0%, rgba(53, 202, 226, 0) 100%);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.2rem;
+}
+
+/* line 50, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-hero .text ul li span {
+  color: #FFF;
+  font-size: 1.8rem;
+}
+
+/* line 58, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-hero .image-area {
+  width: 100%;
+  max-width: 70.6rem;
+  margin-right: -17.4rem;
+}
+
+/* line 63, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-hero .image-area h2 {
+  text-align: center;
+  margin-bottom: 6.7rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* line 70, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-hero .image-area .image {
+  position: relative;
+  top: 4.3rem;
+  width: 100%;
+  height: 54.1rem;
+}
+
+/* line 76, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-hero .image-area .image img {
+  position: absolute;
+}
+
+/* line 80, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-hero .image-area .image .card-front {
+  top: 4.1rem;
+  left: 0;
+  z-index: 2;
+  max-width: 43.5rem;
+  animation: floatingDown 6s infinite;
+}
+
+/* line 88, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-hero .image-area .image .card-back {
+  right: 8.6rem;
+  bottom: 4.6rem;
+  z-index: 1;
+  max-width: 35.2rem;
+  animation: floatingUp 6s infinite;
+}
+
+/* line 97, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-hero .image-area .image .circle {
+  top: 2.8rem;
+  right: 4.3rem;
+  max-width: 55.3rem;
+}
+
+@media (max-width: 1440px) {
+  /* line 106, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area {
+    margin-right: -13.4rem;
+  }
+}
+
+@media (max-width: 1366px) {
+  /* line 112, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area {
+    margin-right: -8rem;
+  }
+  /* line 116, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area .image .card-back {
+    right: 4rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  /* line 1, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero {
+    padding-top: 14.5rem;
+    height: 65.6rem;
+  }
+  /* line 127, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .text h3 {
+    margin-bottom: 2.4rem;
+  }
+  /* line 130, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .text ul {
+    margin-bottom: 4.5rem;
+  }
+  /* line 134, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area {
+    margin-right: -1rem;
+  }
+  /* line 137, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area h2 {
+    margin-bottom: 1.5rem;
+  }
+  /* line 140, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area .image {
+    height: 45rem;
+  }
+  /* line 142, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area .image .card-front {
+    max-width: 35rem;
+    top: 8rem;
+  }
+  /* line 146, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area .image .card-back {
+    max-width: 29rem;
+    bottom: 0;
+  }
+  /* line 150, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area .image .circle {
+    max-width: 46rem;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 1, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero {
+    height: 89.1rem;
+    background-size: cover;
+    padding-top: 15rem;
+  }
+  /* line 161, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .container {
+    flex-direction: column;
+  }
+  /* line 165, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .text {
+    text-align: center;
+    max-width: 100%;
+  }
+  /* line 169, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .text h1 {
+    margin-bottom: 2.6rem;
+  }
+  /* line 172, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .text ul {
+    margin: 3.9rem auto 5rem;
+  }
+  /* line 177, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area {
+    max-width: 51.1rem;
+    margin: 0 auto;
+  }
+  /* line 180, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area h2 {
+    margin-bottom: 1.9rem;
+  }
+  /* line 184, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area .image {
+    height: 42.4rem;
+    top: 0;
+  }
+  /* line 188, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area .image .card-front {
+    max-width: 34rem;
+    top: 3.5rem;
+    left: 0;
+  }
+  /* line 194, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area .image .card-back {
+    max-width: 27.4rem;
+    right: 2.9rem;
+    bottom: 3.6rem;
+  }
+  /* line 200, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area .image .circle {
+    max-width: 42.9rem;
+    top: 0;
+    right: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 1, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero {
+    padding-top: 12.4rem;
+    height: 73.9rem;
+  }
+  /* line 215, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .text h3 {
+    margin-bottom: 1.5rem;
+  }
+  /* line 219, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .text h1 {
+    margin-bottom: 3.7rem;
+  }
+  /* line 223, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .text ul {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 3.7rem auto 5.1rem;
+    max-width: 27.5rem;
+  }
+  /* line 230, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .text ul li:not(:last-child) {
+    margin-bottom: 1.6rem;
+  }
+  /* line 233, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .text ul li .icon {
+    background: transparent;
+    width: 2rem;
+    height: auto;
+  }
+  /* line 240, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .text ul li span br {
+    display: none;
+  }
+  /* line 249, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area h2 {
+    display: none;
+  }
+  /* line 253, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area .image {
+    max-width: 30.5rem;
+    height: 24.8rem;
+  }
+  /* line 257, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area .image .circle {
+    max-width: 26.7rem;
+    right: 0;
+  }
+  /* line 262, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area .image .card-front {
+    max-width: 21.1rem;
+    top: 2.9rem;
+  }
+  /* line 267, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-hero .image-area .image .card-back {
+    max-width: 17rem;
+    bottom: 0;
+    right: 0.6rem;
+  }
+}
+
+/* line 279, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon {
+  padding-top: 12.9rem;
+}
+
+/* line 281, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* line 285, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .left-area {
+  width: 100%;
+  max-width: 27.7rem;
+}
+
+/* line 289, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .left-area .ilustra-mockup {
+  width: 100%;
+  max-width: 27.7rem;
+  position: relative;
+}
+
+/* line 293, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .left-area .ilustra-mockup::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 28.74px;
+  bottom: 0;
+  background-color: #15507E;
+  opacity: 1;
+  filter: blur(40.9394px);
+  border-radius: 20.9052px;
+  z-index: -1;
+}
+
+/* line 307, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .left-area .ilustra-mockup .circle {
+  position: absolute;
+  top: 8.7rem;
+  left: -21.4rem;
+  max-width: 37.7rem;
+  z-index: -1;
+}
+
+/* line 315, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .left-area .ilustra-mockup .mockup {
+  margin-bottom: 13rem;
+}
+
+/* line 320, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .left-area .text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 324, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .left-area .text .icon {
+  margin-bottom: 3.1rem;
+  position: relative;
+}
+
+/* line 327, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .left-area .text .icon::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 83px;
+  background: url("https://neon.lucaswalder.dev/img/points.svg") no-repeat center center;
+  position: absolute;
+  top: -104px;
+  left: 50%;
+  margin-left: -2.5px;
+}
+
+/* line 339, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .left-area .text .icon::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 46px;
+  top: 24px;
+  background: linear-gradient(100.52deg, #008ECF 5.63%, #08AEAE 95.75%);
+  opacity: 0.56;
+  filter: blur(30px);
+  border-radius: 12px;
+  z-index: -1;
+}
+
+/* line 354, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .left-area .text .info-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 357, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .left-area .text .info-txt h3 {
+  color: #33303E;
+}
+
+/* line 361, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .left-area .text .info-txt p {
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #5F5C6B;
+  opacity: 0.8;
+  margin-bottom: 2.6rem;
+}
+
+/* line 371, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .left-area .text .info-txt ul li:first-child {
+  margin-bottom: 1.341rem;
+}
+
+/* line 379, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area {
+  margin-top: 2.275rem;
+  width: 100%;
+  max-width: 80rem;
+}
+
+/* line 384, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .main-text {
+  padding-bottom: 14.4rem;
+}
+
+/* line 386, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .main-text h2 {
+  max-width: 48.8rem;
+  margin-bottom: 4.9rem;
+  color: #33303E;
+}
+
+/* line 392, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .main-text ul {
+  margin-bottom: 3.2rem;
+}
+
+/* line 394, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .main-text ul li {
+  padding: 3.3rem 0;
+  border-bottom: 1px solid rgba(225, 224, 231, 0.9);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 398, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .main-text ul li:first-child {
+  padding-top: 0;
+}
+
+/* line 403, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .main-text ul li:hover .arrow.one {
+  border-left: 2px solid #00D7D7;
+  border-bottom: 2px solid #00D7D7;
+}
+
+/* line 408, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .main-text ul li:hover .arrow.two {
+  border-left: 2px solid #00A5F0;
+  border-bottom: 2px solid #00A5F0;
+}
+
+/* line 413, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .main-text ul li:hover .arrow.three {
+  border-left: 2px solid #0073CE;
+  border-bottom: 2px solid #0073CE;
+}
+
+/* line 420, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .main-text ul li .info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+/* line 422, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .main-text ul li .info .icon {
+  margin-right: 4.3rem;
+}
+
+/* line 426, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .main-text ul li .info .txt h3 {
+  color: #5F5C6B;
+}
+
+/* line 430, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .main-text ul li .info .txt p {
+  color: #7A7786;
+  font-size: 1.8rem;
+}
+
+/* line 437, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .main-text ul li .arrow {
+  width: 14px;
+  height: 14px;
+  border-left: 2px solid #C6C5CE;
+  border-bottom: 2px solid #C6C5CE;
+  transform: rotate(-135deg);
+  transition: all .3s;
+}
+
+/* line 448, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .main-text .btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 112%;
+  letter-spacing: -0.5px;
+  color: #0073CE;
+}
+
+/* line 456, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .main-text .btn strong {
+  padding-left: .8rem;
+  color: #FFC800;
+}
+
+/* line 463, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .card {
+  width: 100%;
+  height: 41rem;
+  background: url("https://neon.lucaswalder.dev/img/bg-box-card-neon.svg") no-repeat center center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  padding-left: 5.9rem;
+}
+
+/* line 471, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .card .text {
+  width: 100%;
+  max-width: 32.7rem;
+}
+
+/* line 474, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .card .text h2 {
+  margin-bottom: 1.1rem;
+  color: #FFF;
+}
+
+/* line 479, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .card .text h3 {
+  color: #FFF;
+  margin-bottom: 0.8rem;
+}
+
+/* line 484, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .card .text p {
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #FFF;
+  margin-bottom: 3.3rem;
+}
+
+/* line 491, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .card .text .btns {
+  display: flex;
+  align-items: center;
+}
+
+/* line 494, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .card .text .btns button:not(:first-child) {
+  margin-left: 1.6rem;
+}
+
+/* line 500, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-card-neon .right-area .card .illustration {
+  margin-right: -3.1rem;
+}
+
+@media (max-width: 1200px) {
+  /* line 509, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .left-area .ilustra-mockup .circle {
+    display: none;
+  }
+  /* line 515, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area {
+    max-width: 73rem;
+  }
+  /* line 522, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .main-text ul li .info .icon {
+    margin-right: 2rem;
+  }
+  /* line 529, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card {
+    padding-left: 3.5rem;
+  }
+  /* line 531, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card .illustration {
+    margin-right: -1rem;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 539, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .container {
+    flex-direction: column-reverse;
+  }
+  /* line 543, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area {
+    max-width: 100%;
+  }
+  /* line 545, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .main-text {
+    padding-bottom: 5.7rem;
+  }
+  /* line 547, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .main-text h2 {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5.3rem;
+  }
+  /* line 553, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .main-text ul {
+    margin-bottom: 4rem;
+  }
+  /* line 557, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .main-text ul li .info .icon {
+    margin-right: 3rem;
+  }
+  /* line 564, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .main-text .btn {
+    text-align: center;
+    display: block;
+    font-size: 1.8rem;
+  }
+  /* line 568, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .main-text .btn::after {
+    right: 35%;
+  }
+  /* line 575, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card {
+    max-width: 94.7%;
+    margin: 0 auto;
+    padding-left: 5.1rem;
+    margin-bottom: 9.34rem;
+  }
+  /* line 581, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card .illustration {
+    max-width: 29.3rem;
+    margin-right: -2.5rem;
+  }
+  /* line 588, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .left-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 9.34rem;
+    width: 100%;
+    max-width: 61rem;
+    margin: 0 auto;
+  }
+  /* line 594, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .left-area .ilustra-mockup {
+    max-width: 25.5rem;
+  }
+  /* line 597, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .left-area .ilustra-mockup .mockup {
+    margin-bottom: 0;
+  }
+  /* line 602, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .left-area .text {
+    max-width: 27rem;
+  }
+}
+
+@media (max-width: 798px) {
+  /* line 612, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card {
+    max-width: 68.8rem;
+    height: 35.2rem;
+    margin: 0 auto;
+    padding-left: 5.1rem;
+    background: url("https://neon.lucaswalder.dev/img/bg-card-neon-tablet.svg") no-repeat center center;
+  }
+  /* line 620, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card .text h2 {
+    font-size: 3.2rem;
+  }
+  /* line 624, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card .text h3 {
+    font-size: 2.4rem;
+  }
+  /* line 628, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card .illustration {
+    max-width: 29.3rem;
+    margin-right: -0.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 638, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card {
+    padding: 3rem 0;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 3rem;
+    background-size: cover;
+    height: auto;
+  }
+  /* line 646, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card .btns {
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  /* line 651, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card .text {
+    max-width: 90%;
+  }
+  /* line 655, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card .illustration {
+    margin: 0;
+    margin-bottom: -10rem;
+  }
+  /* line 662, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .left-area {
+    padding-top: 11.34rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 279, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon {
+    padding-top: 8.6rem;
+    position: relative;
+  }
+  /* line 670, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 214px;
+    left: 0px;
+    bottom: 0;
+    background: linear-gradient(180deg, #F7F7FA 0%, rgba(247, 247, 250, 0) 100%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    z-index: -1;
+  }
+  /* line 682, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area {
+    margin-bottom: 11.7rem;
+  }
+  /* line 684, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .main-text {
+    padding-bottom: 3.4rem;
+  }
+  /* line 686, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .main-text h2 {
+    font-size: 2.8rem;
+    margin-bottom: 3.8rem;
+  }
+  /* line 692, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .main-text ul li {
+    padding: 2.8rem 0;
+  }
+  /* line 694, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .main-text ul li .info {
+    align-items: flex-start;
+  }
+  /* line 697, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .main-text ul li .info .txt h3 {
+    max-width: 19.1rem;
+    line-height: 112%;
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+  }
+  /* line 704, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .main-text ul li .info .txt p {
+    max-width: 20.8rem;
+    font-size: 1.4rem;
+    line-height: 150%;
+  }
+  /* line 711, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .main-text ul li .info .icon {
+    margin-right: 2.3rem;
+  }
+  /* line 719, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card {
+    padding-top: 4.3rem;
+    max-width: 95%;
+    height: 47rem;
+    position: relative;
+  }
+  /* line 725, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 260.14px;
+    height: 173.14px;
+    background: linear-gradient(171.68deg, #0E9CC0 -6.1%, rgba(14, 156, 192, 0) 116.71%);
+    filter: blur(35.9824px);
+    border-radius: 10.7947px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    z-index: -1;
+    margin-bottom: -8rem;
+    opacity: 0.4;
+  }
+  /* line 741, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card .text h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1.46rem;
+  }
+  /* line 745, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card .text h3 {
+    font-size: 2rem;
+    line-height: 120%;
+    margin-bottom: 0.6rem;
+  }
+  /* line 751, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card .text p {
+    margin: 0 auto;
+    padding-bottom: 3.4rem;
+    max-width: 25.3rem;
+  }
+  /* line 758, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card .btns {
+    margin-bottom: 5.45rem;
+  }
+  /* line 760, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card .btns .btn-primary {
+    padding: 0 3rem;
+  }
+  /* line 765, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .right-area .card .illustration {
+    max-width: 27.7rem;
+    margin-bottom: 0;
+  }
+  /* line 772, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .left-area {
+    padding-top: 0;
+    flex-direction: column-reverse;
+  }
+  /* line 775, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .left-area .text {
+    max-width: 100%;
+  }
+  /* line 778, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .left-area .text .icon::before {
+    display: none;
+  }
+  /* line 784, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .left-area .text .info-txt h3 {
+    font-size: 2.4rem;
+  }
+  /* line 787, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .left-area .text .info-txt p {
+    line-height: 2.2rem;
+    font-size: 1.8rem;
+    max-width: 29rem;
+    margin-bottom: 4.4rem;
+  }
+  /* line 794, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .left-area .text .info-txt ul {
+    margin-bottom: 4.1rem;
+  }
+  /* line 800, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .left-area .ilustra-mockup {
+    height: 39.7rem;
+    overflow-y: hidden;
+    max-width: 100%;
+  }
+  /* line 804, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .left-area .ilustra-mockup::after {
+    display: none;
+  }
+  /* line 807, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-card-neon .left-area .ilustra-mockup .mockup {
+    max-width: 21.8rem;
+    margin: 0 auto;
+  }
+}
+
+/* line 818, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-testimonials {
+  padding-top: 13.4rem;
+}
+
+/* line 821, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-testimonials .container .top {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+/* line 823, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-testimonials .container .top h2 {
+  width: 100%;
+  max-width: 66.8rem;
+  color: #33303E;
+}
+
+/* line 827, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-testimonials .container .top h2 span {
+  display: block;
+  color: #c6c5ce;
+  opacity: 0.8;
+  margin-bottom: 1.4rem;
+}
+
+/* line 835, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-testimonials .container .top .swiper-pagination {
+  position: relative;
+}
+
+/* line 837, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-testimonials .container .top .swiper-pagination .swiper-pagination-bullet {
+  width: 0.862rem;
+  height: 0.7rem;
+  left: 130.146rem;
+  top: 21.6rem;
+  background: #FFC800;
+  opacity: 0.3;
+  border-radius: 12px;
+  transition: all .3s;
+}
+
+/* line 846, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-testimonials .container .top .swiper-pagination .swiper-pagination-bullet:not(:first-child) {
+  margin-left: 0.4rem;
+}
+
+/* line 849, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-testimonials .container .top .swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 1.723rem;
+}
+
+/* line 857, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-testimonials .container .slide-testimonials {
+  overflow: hidden;
+  margin-top: 4rem;
+}
+
+@media (max-width: 991px) {
+  /* line 818, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-testimonials {
+    padding-top: 10.9rem;
+  }
+  /* line 866, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-testimonials .container .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  /* line 869, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-testimonials .container .top .swiper-pagination {
+    margin: 0 auto;
+    padding: 5.1rem 0;
+  }
+  /* line 875, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-testimonials .container .slide-testimonials {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 818, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-testimonials {
+    padding-top: 7.6rem;
+  }
+  /* line 883, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-testimonials .container {
+    padding: 0;
+  }
+  /* line 885, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-testimonials .container .top {
+    max-width: 25.3rem;
+    margin: 0 auto;
+  }
+  /* line 888, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-testimonials .container .top h2 {
+    font-size: 2.8rem;
+  }
+  /* line 890, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-testimonials .container .top h2 span {
+    font-size: 2.4rem;
+    margin-bottom: 1.1rem;
+  }
+  /* line 896, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-testimonials .container .top .swiper-pagination {
+    padding: 3.4rem 0;
+  }
+  /* line 901, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-testimonials .container .slide-testimonials {
+    padding: 0 2rem;
+  }
+}
+
+/* line 910, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-conta-digital {
+  padding-top: 12.7rem;
+  margin-bottom: 10.9rem;
+}
+
+/* line 913, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-conta-digital .container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* line 916, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-conta-digital .text {
+  width: 100%;
+  max-width: 55.8rem;
+  margin-top: 1.1rem;
+}
+
+/* line 920, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-conta-digital .text h2 {
+  color: #33303E;
+  margin-bottom: 4.5rem;
+}
+
+/* line 924, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-conta-digital .text h2 span {
+  color: #C6C5CE;
+  display: block;
+}
+
+/* line 930, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-conta-digital .text ul {
+  margin-bottom: 4.9rem;
+}
+
+/* line 932, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-conta-digital .text ul li {
+  display: flex;
+  align-items: center;
+}
+
+/* line 935, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-conta-digital .text ul li:not(:last-child) {
+  margin-bottom: 3.7rem;
+}
+
+/* line 939, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-conta-digital .text ul li .icon {
+  width: 4.5rem;
+  height: 4.5rem;
+  background: #00D7D7;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2.6rem;
+}
+
+/* line 949, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-conta-digital .text ul li .info h4 {
+  margin-bottom: 0.4rem;
+  color: #5F5C6B;
+}
+
+/* line 954, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-conta-digital .text ul li .info p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: #7A7786;
+}
+
+/* line 964, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-conta-digital .image {
+  position: relative;
+  width: 100%;
+  max-width: 71.2rem;
+  height: 59.8rem;
+  margin-right: -181px;
+}
+
+/* line 971, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-conta-digital .image img {
+  position: absolute;
+}
+
+/* line 973, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-conta-digital .image img.circle {
+  top: 9rem;
+  right: 0;
+}
+
+/* line 978, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-conta-digital .image img.mockup-02 {
+  top: 0.3rem;
+  left: 25.8rem;
+}
+
+/* line 983, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+.s-conta-digital .image img.mockup-01 {
+  left: 0;
+  top: 7.8rem;
+}
+
+@media (max-width: 1200px) {
+  /* line 910, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital {
+    padding-top: 7.7rem;
+    margin-bottom: 8.9rem;
+  }
+  /* line 995, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 999, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .text {
+    max-width: 75%;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 1004, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .text h2 {
+    text-align: center;
+    max-width: 80%;
+  }
+  /* line 1010, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .image {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 910, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital {
+    padding-top: 8.6rem;
+    margin-bottom: 8.1rem;
+  }
+  /* line 1019, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .text {
+    margin-bottom: 7.8rem;
+  }
+  /* line 1021, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .text h2 {
+    max-width: 48.2rem;
+    margin-bottom: 5rem;
+  }
+  /* line 1024, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .text h2 span {
+    margin-bottom: 1.2rem;
+  }
+  /* line 1029, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .text ul {
+    max-width: 63rem;
+  }
+  /* line 1032, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .text ul li .icon {
+    height: 6.2rem;
+    width: 6.2rem;
+  }
+  /* line 1036, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .text ul li:not(:last-child) {
+    margin-bottom: 5.4rem;
+  }
+  /* line 1043, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .image {
+    max-width: 58.201rem;
+    height: 57.87rem;
+  }
+  /* line 1048, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .image img {
+    position: absolute;
+  }
+  /* line 1050, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .image img.circle {
+    top: 5.5rem;
+    width: 100%;
+  }
+  /* line 1055, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .image img.mockup-02 {
+    top: 0;
+    left: 305px;
+  }
+  /* line 1060, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .image img.mockup-01 {
+    left: 5.8rem;
+    top: 7.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 910, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital {
+    padding-top: 5.7rem;
+    margin-bottom: 7.2rem;
+  }
+  /* line 1073, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .text {
+    max-width: 100%;
+    margin-bottom: 4.6rem;
+  }
+  /* line 1076, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .text h2 {
+    max-width: 100%;
+    font-size: 2.8rem;
+  }
+  /* line 1079, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .text h2 span {
+    font-size: 2.4rem;
+    margin-bottom: 1.1rem;
+  }
+  /* line 1085, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .text ul {
+    margin-bottom: 4.2rem;
+  }
+  /* line 1087, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .text ul li {
+    flex-direction: column;
+    text-align: center;
+  }
+  /* line 1090, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .text ul li:not(:last-child) {
+    margin-bottom: 3.3rem;
+  }
+  /* line 1093, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .text ul li .icon {
+    width: 4.8rem;
+    height: 4.8rem;
+    margin-bottom: 1.6rem;
+    margin-right: 0;
+  }
+  /* line 1101, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .text ul li .info h4 {
+    margin-bottom: 0.4rem;
+  }
+  /* line 1104, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .text ul li .info p {
+    font-size: 1.4rem;
+    max-width: 23.8rem;
+    margin: 0 auto;
+  }
+  /* line 1114, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .image {
+    max-width: 35.7rem;
+    height: 46.8rem;
+  }
+  /* line 1117, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .image img {
+    position: absolute;
+  }
+  /* line 1119, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .image img.circle {
+    max-width: 32.5rem;
+    top: 14.6rem;
+    right: 1.9rem;
+    transform: rotate(-212deg);
+  }
+  /* line 1126, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .image img.mockup-02 {
+    max-width: 16.8rem;
+    top: 0;
+    left: 17.4rem;
+  }
+  /* line 1132, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_home.scss */
+  .s-conta-digital .image img.mockup-01 {
+    max-width: 16.8rem;
+    left: -0.5rem;
+    top: 4.8rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
