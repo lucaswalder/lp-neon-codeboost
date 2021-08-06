@@ -1,7 +1,7 @@
 .s-hero {
   width: 100%;
   height: 78.6rem;
-  background: url("../img/bg-hero.svg") no-repeat center center;
+  background: url("/img/bg-hero.svg") no-repeat center center;
   padding-top: 17.5rem;
 
   .container {
@@ -329,7 +329,7 @@
           display: inline-block;
           width: 5px;
           height: 83px;
-          background: url("../img/points.svg") no-repeat center center;
+          background: url("/img/points.svg") no-repeat center center;
           position: absolute;
           top: -104px;
           left: 50%;
@@ -463,7 +463,7 @@
     .card {
       width: 100%;
       height: 41rem;
-      background: url("../img/bg-box-card-neon.svg") no-repeat center center;
+      background: url("/img/bg-box-card-neon.svg") no-repeat center center;
       @include flex(row, center, space-between);
       border-radius: 12px;
       padding-left: 5.9rem;
@@ -614,7 +614,7 @@
         height: 35.2rem;
         margin: 0 auto;
         padding-left: 5.1rem;
-        background: url('../img/bg-card-neon-tablet.svg') no-repeat center center;
+        background: url('/img/bg-card-neon-tablet.svg') no-repeat center center;
 
         .text {
           h2 {
