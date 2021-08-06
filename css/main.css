@@ -319,7 +319,7 @@ header nav ul li a:hover {
 header nav ul li #drop-down {
   position: absolute;
   left: -15rem;
-  top: 5.4rem;
+  top: 2rem;
   visibility: hidden;
   display: flex;
   flex-direction: column;
@@ -329,12 +329,14 @@ header nav ul li #drop-down {
   padding-left: 4.2rem;
   border-radius: 0.6rem;
   border-bottom: 5px solid #FFC800;
-  transition: all .4s ease;
+  transition: all .6s ease-in-out;
   height: 0;
   overflow-y: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
-/* line 67, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+/* line 69, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
 header nav ul li #drop-down::before {
   content: '';
   top: -7px;
@@ -347,23 +349,19 @@ header nav ul li #drop-down::before {
   border-radius: 3px;
 }
 
-/* line 79, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+/* line 81, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
 header nav ul li #drop-down.open-menu {
   visibility: visible;
   padding: 4.9rem 0 4.2rem 4.3rem;
   height: auto;
   overflow-y: visible;
-}
-
-/* line 84, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
-header nav ul li #drop-down.open-menu li {
   opacity: 1;
+  pointer-events: all;
+  top: 5.4rem;
 }
 
-/* line 89, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
+/* line 91, ../../../../../Users/lucaswalder/Desktop/Cursos/codeboost/lp_neon/scss/_header.scss */
 header nav ul li #drop-down li {
-  opacity: 0;
-  transition: opacity .6s;
   width: 100%;
 }
 
